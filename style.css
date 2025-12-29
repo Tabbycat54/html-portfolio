@@ -75,8 +75,8 @@ footer {
     }
 
 .css-logo {
-    height: 350px;
-    width: 400px;
+    height: 275px;
+    width: 300px;
     border: 5px solid #161E54;
     box-shadow: #213448 4px 4px 10px;
     border-radius: 10px;
@@ -94,4 +94,11 @@ p {
     font-size: 12pt;
     margin-top: 0px;
     margin-bottom: 10px;
+}
+
+.coding {
+    height: 250px;
+    width: 400px;
+    border: 5px solid #161E54;
+    box-shadow: #213448 4px 5px 15px;
 }

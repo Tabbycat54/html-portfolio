@@ -71,6 +71,8 @@ footer {
     }
 
 .hellobox {
+    height: 200px;
+    width: 300px;
     margin-left: 160px
     }
 
@@ -101,4 +103,11 @@ p {
     width: 400px;
     border: 5px solid #161E54;
     box-shadow: #213448 4px 5px 15px;
+}
+
+.motivational-poster {
+    height: 250px;
+    width: 450px;
+    margin-left: 125px;
+    
 }

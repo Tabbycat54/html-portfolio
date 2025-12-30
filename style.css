@@ -97,12 +97,22 @@ main {
     }
 
 .css-logo {
-    height: 275px;
-    width: 300px;
+    height: 175px;
+    width: 200px;
     border: 5px solid #161E54;
     box-shadow: #213448 4px 4px 10px;
     border-radius: 10px;
+    float: left;
     }
+
+.header-box {
+    display:flex;
+    gap: 30px
+}
+
+#heading-CSS {
+    margin-top: 75px;
+}
 
 .dragonkitty {
     height: 300px;
@@ -146,12 +156,12 @@ p {
     color: #161E54;
 }
 .navigation-1 {
-    display: flex;
-    gap: 10px;
+    display: inline-flex;
+    gap: 15px;
 }
 
 .navigation-2 {
-    display: flex;
+    display: inline-flex;
     gap: 15px;
 }
 
@@ -169,4 +179,10 @@ p {
 
 .card-4 {
     width: 25%;
+}
+
+#timeline {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }

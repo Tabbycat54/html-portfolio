@@ -145,3 +145,28 @@ p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: #161E54;
 }
+.navigation-1 {
+    display: flex;
+    gap: 10px;
+}
+
+.navigation-2 {
+    display: flex;
+    gap: 15px;
+}
+
+.card-1 {
+    width: 25%;
+}
+
+.card-2 {
+    width: 25%;
+}
+
+.card-3 {
+    width: 25%;
+}
+
+.card-4 {
+    width: 25%;
+}

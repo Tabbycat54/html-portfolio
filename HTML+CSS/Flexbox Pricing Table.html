@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flexbox Pricing Table</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Sono", sans-serif;
+      }
+
+      .pricing-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 2rem;
+        flex: 1;
+        padding: 10px;
+      }
+
+      .pricing-plan {
+        max-width: 400px;
+        flex: 1;
+        text-align: center;
+        border: solid;
+        border-radius: 5px;
+        background-color: whitesmoke;
+        padding: 20px;
+      }
+
+      .plan-title {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 10px;
+        padding: 10px;
+        font-weight: bold;
+      }
+
+      .plan-price{
+        text-align: center;
+        font-size: 36px;
+        margin-bottom: 10px;
+      }
+
+      .plan-features{
+        list-style: none;
+        text-align: center;
+        padding:0px;
+        margin:0px;
+      }
+
+      .plan-features li{
+        margin-bottom: 10px;
+      }
+
+      .plan-button{
+        padding: 10px;
+        background-color: cadetblue;
+        color:aliceblue;
+        border-radius: 10%;
+        border: none;                
+      }
+
+      p{
+        text-align: center;
+      }
+
+      @media (max-width: 1250px) {
+        .pricing-container{
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+    <h1 style="text-align: center;"> Pet Pricing Plans </h1>
+  </header>
+    <div class="pricing-container">
+      <div class="pricing-plan">
+        <div class="plan-title">Fish</div>
+        <div class="plan-price">$ 9.99/month</div>
+        <ul class="plan-features">
+          <li> 1 gallon tank</li>
+          <li> 1 betta </li>
+          <li> Your personal therapist </li>
+        </ul>
+        <button class="plan-button">Sign Up</button>
+      </div>
+      <div class="pricing-plan">
+        <div class="plan-title">Dog</div>
+        <div class="plan-price">$19.99/month</div>
+        <ul class="plan-features">
+          <li> Drooly baby </li>
+          <li> Eats everything </li>
+          <li> The goodest of boys </li>
+        </ul>
+        <button class="plan-button">Sign Up</button>
+      </div>
+      <div class="pricing-plan">
+        <div class="plan-title">Cat</div>
+        <div class="plan-price">$49.99/month</div>
+        <ul class="plan-features">
+          <li> Your own personal deity</li>
+          <li> Love bites and cuddles </li>
+          <li> A trap easily fallen for </li>
+        </ul>
+        <button class="plan-button">Sign Up</button>
+      </div>
+    </div>
+    <p> All sales are final. Enjoy your new best friend. </p>
+    <hr />
+    <footer>
+      <p> <a href="../index.html">Home</a> | <a href="../contact.html">Contact</a> | <a href="../about.html"> About Me | <a href="./HTML+CSS Projects.html"> HTML and CSS Projects </a> </p>   
+      <p style="font-size: 10pt"> Created as part of Udemy course "Become a Full-Stack Web Developer with just ONE course. HTML, CSS, Javascript, Node, React, PostgreSQL, Web3 and DApps" by AppBrewery on 12/30/2025 </p>
+      <p style="font-size: 10pt"> © 2025 Tabitha Henninger</p>
+    </footer>
+  </body>
+</html>
